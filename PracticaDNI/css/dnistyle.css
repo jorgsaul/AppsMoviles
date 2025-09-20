@@ -10,6 +10,7 @@ body{
 }
 
 .form-container{
+  padding: 1%;
   background-color: white;
   width: 30vw;
   height: 40vh;
