@@ -118,7 +118,7 @@ export default function QRScannerApp() {
         style={{ flex: 1 }}
         facing="back"
         barcodeScannerSettings={{
-          barcodeTypes: ["qr", "pdf417", "ean13"]
+          barcodeTypes: ["qr"]
         }}
         onBarcodeScanned={scanned ? undefined : handleBarCodeScanned}
       />
